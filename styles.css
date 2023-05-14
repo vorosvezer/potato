@@ -24,6 +24,17 @@ body {
     margin-right: 1%;
     border-radius: 25px;
     opacity: 0.85;
+    border-style: groove;
+    border-color:#d6ae2f;
+  
+
+}
+
+.navbar-brand{
+    font-family: 'Parisienne', cursive;
+    font-size: 1.9rem;
+    padding-right: 3% ;
+    padding-left: 3%;
 }
 
 .bg-dark {
@@ -34,11 +45,18 @@ body {
 .nav-link {
 
     color: #071a03;
+  
+}
+
+.nav-item {
+    padding: 15%, 15%;
+   
 }
 
 .navbar-nav .nav-link.active {
     color: #d6ae2f;
     text-decoration: underline;
+    
 }
 
 .left {
@@ -49,7 +67,8 @@ body {
 
     background-color: rgba(214, 174, 47, 0.85);
     overflow-y: scroll;
-    height: 84%;
+    height: 80%;
+   
     padding: 3%;
     /* text-shadow: 0 0 3px #071a03; */
     float: left;
@@ -57,23 +76,32 @@ body {
     text-align: justify;
     text-indent: 6%;
     letter-spacing: 0.06rem;
-
+    border-style: groove;
+    border-color: #d6ae2f;
+   
 }
 
 .right {
-    float: right;
-    width: 46%;
-    color: #071a03;
-    /* color: #d6ae2f; */
-    margin: 1%;
-    /* color: #071a03; */
-    border-radius: 25px;
+    /* float: right; */
+    width: auto;
+    height: auto;
 
-    background-color: rgba(80, 99, 13, 0.85);
-    overflow-y: scroll;
-    height: 84%;
-    padding: 3%;
-    overflow: auto;
+    
+    border-radius: 25px;
+   
+    background-color: #071a03;
+    
+    border-style: groove;
+    border-color: #d6ae2f;
+}
+
+.loki_image {
+    
+    padding-right: 5%;
+    /* padding-top: 5%; */
+    padding-bottom: 15%;
+  
+    
 }
 
 p{
