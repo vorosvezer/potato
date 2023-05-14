@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-
+    z-index: 1;
     margin-top: 1%;
     margin-left: 1%;
     margin-right: 1%;
@@ -54,6 +54,9 @@ body {
     /* text-shadow: 0 0 3px #071a03; */
     float: left;
     width: 50%;
+    text-align: justify;
+    text-indent: 6%;
+    letter-spacing: 0.06rem;
 
 }
 
@@ -71,6 +74,10 @@ body {
     height: 84%;
     padding: 3%;
     overflow: auto;
+}
+
+p{
+   
 }
 
 .centered {
