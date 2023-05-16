@@ -134,3 +134,16 @@ h2 {
     text-align: center;
     padding: 10px;
   } */
+
+
+.navbar-brand:hover {
+    color: #50630d;
+}
+
+p:hover {
+    color: #d6ae2f;
+}
+
+h1:hover {
+    color: #d6ae2f;
+}
