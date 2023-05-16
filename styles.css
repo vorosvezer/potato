@@ -1,8 +1,6 @@
 body {
     background-image: url("loki.jpg");
-
-
-
+    /* background-color: #071a03; */
 
     background-size: auto;
     background-repeat: no-repeat;
@@ -18,104 +16,101 @@ body {
 }
 
 .navbar {
-    z-index: 1;
+    border-bottom: 3px groove #50630d;
+    /* border-style: groove; */
+    /* border-color: #d6ae2f; */
+    opacity: 0.85;
+    /* z-index: 1;
     margin-top: 1%;
     margin-left: 1%;
-    margin-right: 1%;
-    border-radius: 25px;
-    opacity: 0.85;
+    margin-right: 1%; */
+    /* border-radius: 25px; */
+    /* 
     border-style: groove;
-    border-color:#d6ae2f;
-  
-
+    border-color:#d6ae2f; */
 }
 
-.navbar-brand{
-    font-family: 'Parisienne', cursive;
+.navbar-brand {
+    font-family: "Parisienne", cursive;
     font-size: 1.9rem;
-    padding-right: 3% ;
+    padding-right: 3%;
     padding-left: 3%;
+    color: #d6ae2f;
 }
 
-.bg-dark {
-    background-color: #50630d !important;
+.bg-success {
+    background-color: #071a03 !important;
 }
-
 
 .nav-link {
-
-    color: #071a03;
-  
+    color: #50630d;
+    ;
 }
 
 .nav-item {
+    text-align: right;
     padding: 15%, 15%;
-   
 }
 
 .navbar-nav .nav-link.active {
-    color: #d6ae2f;
+    text-align: right;
+    color: #50630d;
     text-decoration: underline;
-    
 }
 
 .left {
-    margin: 1%;
+    margin-top: 3%;
+    margin-left: 1%;
+    /* margin: 1%; */
     padding-bottom: 3%;
-    color: #071a03;
+    color: #d6d3ae;
+
+    /* color: #50630d; */
+
+    /* color: #d6ae2f; */
     border-radius: 25px;
 
-    background-color: rgba(214, 174, 47, 0.85);
+    background-color: rgba(7, 26, 3, 0.85);
     overflow-y: scroll;
-    height: 80%;
-   
+    height: 75%;
+    width: 50%;
     padding: 3%;
     /* text-shadow: 0 0 3px #071a03; */
     float: left;
-    width: 50%;
+
     text-align: justify;
     text-indent: 6%;
     letter-spacing: 0.06rem;
     border-style: groove;
-    border-color: #d6ae2f;
-   
+    border-color: #50630d;
 }
 
-.right {
-    /* float: right; */
-    width: auto;
-    height: auto;
-
-    
+.right .loki_image {
+    float: right;
+    width: 46%;
+    height: 95%;
     border-radius: 25px;
-   
     background-color: #071a03;
-    
     border-style: groove;
     border-color: #d6ae2f;
+    margin-top: 3%;
+    margin-right: 1%;
+    opacity: 0.7;
+
 }
 
-.loki_image {
-    
-    padding-right: 5%;
-    /* padding-top: 5%; */
-    padding-bottom: 15%;
-  
-    
-}
-
-p{
-   
-}
+/* .loki_image {
+    float: right;
+    padding: 5%;
+    width: 25%;
+    height: 75%;
+} */
 
 .centered {
-
     width: 100%;
-
     margin: 3%, 5%;
     color: #071a03;
     border-radius: 25px;
-
     background-color: rgba(80, 99, 13, 0.85);
     overflow-y: scroll;
     height: 84%;
@@ -126,6 +121,11 @@ h1,
 h2 {
     text-align: center;
     padding-bottom: 5%;
+    /* color: #d6ae2f; */
+}
+
+.first_ch {
+    font-weight: bold;
 }
 
 /* .footer {
