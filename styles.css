@@ -80,9 +80,13 @@ body {
 
 .loki_logo {
     /* float: center; */
-    padding-left: 20%;
-    width: 65%;
+    /* padding-left: 20%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     cursor: none;
+
 }
 
 .right .loki_image {
