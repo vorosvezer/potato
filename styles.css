@@ -74,18 +74,22 @@ body {
 
 }
 
-/* .loki_header {
-    background-color: #d6ae2f;
-} */
+.loki_header {
+    border-radius: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+
+    cursor: none;
+    /* background-color: #d6ae2f; */
+}
 
 .loki_logo {
-    /* float: center; */
-    /* padding-left: 20%; */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    cursor: none;
+
 
 }
 
