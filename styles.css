@@ -12,6 +12,16 @@ body {
     width: 100%;
     cursor: pointer;
 
+    overflow: hidden;
+
+    /* no copy part */
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
 }
 
 .navbar-brand {
@@ -60,19 +70,19 @@ body {
     float: center;
     cursor: pointer;
 
+
+
 }
 
-.loki_image {}
+/* .loki_header {
+    background-color: #d6ae2f;
+} */
 
 .loki_logo {
-    /* background: url(loki_header.png); */
-    /* background-repeat: no-repeat; */
-
-    padding-left: 30%;
-    width: 68%;
+    /* float: center; */
+    padding-left: 20%;
+    width: 65%;
     cursor: none;
-
-
 }
 
 .right .loki_image {
@@ -86,13 +96,6 @@ body {
     transform: scale(1) rotate(45deg);
     z-index: 0;
 }
-
-/* .loki_image {
-    float: right;
-    padding: 5%;
-    width: 25%;
-    height: 75%;
-} */
 
 .centered {
     width: 100%;
