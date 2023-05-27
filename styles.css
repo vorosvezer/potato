@@ -10,6 +10,8 @@ body {
     background-position: top center;
     height: 100%;
     width: 100%;
+    cursor: pointer;
+
 }
 
 .navbar-brand {
@@ -56,6 +58,21 @@ body {
     text-indent: 6%;
     letter-spacing: 0.06rem;
     float: center;
+    cursor: pointer;
+
+}
+
+.loki_image {}
+
+.loki_logo {
+    /* background: url(loki_header.png); */
+    /* background-repeat: no-repeat; */
+
+    padding-left: 30%;
+    width: 68%;
+    cursor: none;
+
+
 }
 
 .right .loki_image {
@@ -92,6 +109,7 @@ h1,
 h2 {
     text-align: center;
     padding-bottom: 5%;
+
 }
 
 .first_ch {
@@ -105,6 +123,7 @@ h2 {
 p:hover {
     color: #0b450a;
     background-color: black;
+
 }
 
 h1:hover {
